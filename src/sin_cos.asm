@@ -2,7 +2,8 @@
 ; Takes unsigned 8-bit angle in A
 ; Returns signed 8-bit offset in A
 ; Trashes Y, $00
-.EXPORT sin, cos
+.GLOBAL sin, cos
+; #end-header
 
 
 

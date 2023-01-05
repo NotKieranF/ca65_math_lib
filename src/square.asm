@@ -1,5 +1,6 @@
 ; Precomputed square lookup tables
-.EXPORT square_table_lo, square_table_hi
+.GLOBAL square_table_lo, square_table_hi
+; #end-header
 
 
 

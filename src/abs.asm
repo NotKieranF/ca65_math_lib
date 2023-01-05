@@ -2,7 +2,9 @@
 ; Takes signed 8-bit input in A
 ; Returns unsigned 8-bit magnitude in A
 ; Trashes no registers or memory
-.EXPORT abs
+; 9 bytes, 17 cycles best case, 20 cycles worst case
+.GLOBAL abs
+; #end-header
 
 
 

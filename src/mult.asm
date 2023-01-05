@@ -2,7 +2,8 @@
 ; Takes unsigned 8-bit multiplier in A, and unsigned 8-bit multiplicand in Y
 ; Returns hi 8-bits of product in A, and lo 8-bits of product in Y
 ; Trashes $00, $01
-.EXPORT mult
+.GLOBAL mult
+; #end-header
 
 
 

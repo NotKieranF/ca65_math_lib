@@ -2,7 +2,8 @@
 ; Takes signed 8-bit x-offset in A, signed 8-bit y-offset in Y
 ; Returns unsigned 8-bit angle in A
 ; Trashes Y, $00, $01, $02
-.EXPORT atan2
+.GLOBAL atan2
+; #end-header
 
 
 
